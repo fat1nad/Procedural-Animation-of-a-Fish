@@ -5,21 +5,21 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 10f;
-    //[SerializeField] float sinAngle = 30f; // Angle for sine wave animation
+    //[SerializeField] float sinMaxAngle = 30f; // Max angle for sine wave animation
 
     // "Cache" values
     Camera currentCam; // Currently active camera
 
     Vector3 mousePos; // Mouse position
     Vector3 lookAtTarget; // Mouse position in world space
-    
-    Transform child; // Child armature for sine wave animation
-    float childXAngle; // Interpolated value between -sinAngle and +sinAngle
 
-    void Start()
-    {
-        child = transform.GetChild(0);
-    }
+    //float sinAngle; // Interpolated value between -sinMaxAngle and +sinMaxAngle
+    //Transform child; // Child armature for sine wave animation
+
+    //void Start()
+    //{
+    //    child = transform.GetChild(0);
+    //}
 
     void Update()
     {
@@ -37,9 +37,14 @@ public class PlayerMovement : MonoBehaviour
             // Setting position to move
             transform.position += moveSpeed * Time.deltaTime * transform.forward;
 
-            // Setting child local x angle for sine wave animation
-            //childXAngle = sinAngle * Mathf.Sin(2 * Mathf.PI * Time.time);
-            //child.localRotation = Quaternion.AngleAxis(childXAngle, Vector3.up);
+            //// Finding angle for sine wave animation
+            //sinAngle = sinMaxAngle * Mathf.Sin(2 * Mathf.PI * Time.time);
+
+            //// Setting child local x angle for sine wave animation
+            //child.localRotation = Quaternion.AngleAxis(sinAngle, Vector3.up);
+
+            //// Or adding this angle to this object's rotation
+            ////transform.rotation *= Quaternion.AngleAxis(sinAngle, Vector3.up);
         }        
     }
 }
