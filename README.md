@@ -1,5 +1,6 @@
 # Procedural Animation of a Fish
 *by Fatima Nadeem*
+
 Resource project useful for my tutorial on procedural animation of a fish. Giving back to the game dev community after Code Coven's **Intro to Game Making with Unreal** program.
 
 ## Attributions
