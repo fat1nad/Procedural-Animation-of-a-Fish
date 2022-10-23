@@ -13,6 +13,10 @@ Just to put it out there, I will be using Unity Hub to open this project.
 
 For the code, you will need your preferred IDE that works well with Unity (Visual Studio, Project Rider, MonoDevelop, etc.).
 
+___
+
+Programming knowledge is ideal since I will be going over the code. However, you will still be able to follow through and have a procedurally animated fish at the end without having to code, since the code is pre-provided.
+
 ## Software versions used
 
     Blender 3.0.1
