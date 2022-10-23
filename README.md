@@ -11,7 +11,7 @@ Most versions of Unity and Blender should do I believe. However, for the extra b
 
 Just to put it out there, I will be using Unity Hub to open this project.
 
-You will also need your preferred IDE that works well with Unity (Visual Studio, Project Rider, MonoDevelop, etc.) for the code.
+For the code, you will need your preferred IDE that works well with Unity (Visual Studio, Project Rider, MonoDevelop, etc.).
 
 ## Software versions used
 
