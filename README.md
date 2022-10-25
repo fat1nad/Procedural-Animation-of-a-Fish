@@ -12,7 +12,7 @@ I have tried to make this tutorial super approachable for those new to Unity.
 If you are not comfortable with programming, you will still be able to have a procedurally animated fish in the end since the code is pre-provided. However, the code is the main part of the procedural animation so I will be going through it in detail.
 ___
 
-Most versions of Unity and Blender should work I believe. However, for the extra bit on Unity's own Animation Rigging package you will need Unity 2020.2 or above. Either way, LTS versions are recommended.
+Most versions of Unity and Blender should work I believe. However, for the extra/bonus bit on Unity's own Animation Rigging package you will need Unity 2020.2 or above. Either way, LTS versions are recommended.
 
 Just to put it out there, I will be using Unity Hub to open this project.
 
